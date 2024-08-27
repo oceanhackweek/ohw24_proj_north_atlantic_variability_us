@@ -1,0 +1,17 @@
+[project]
+authors = ["Robert Ford <rford2@albany.edu>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "ohw24_proj_north_atlantic_variability_us"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+xeofs = ">=2.4.0,<3"
+intake = ">=0.7.0,<0.8"
+intake-esm = ">=2024.2.6,<2025"
+ipykernel = ">=6.29.5,<7"
+xrft = ">=1.0.1,<2"
+argopy = ">=0.1.16,<0.2"

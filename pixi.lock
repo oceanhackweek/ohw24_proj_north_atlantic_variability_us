@@ -208,7 +208,9 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/msgpack-python-1.0.8-py311h52f7536_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/multidict-6.0.5-py311h459d7ec_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/multipledispatch-0.6.0-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/multitaper-1.2.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyh9f0ad1d_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/nc-time-axis-1.4.1-pyhd8ed1ab_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-he02047a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nest-asyncio-1.6.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/netcdf4-1.7.1-nompi_py311h25b3b55_101.conda
@@ -252,6 +254,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyasn1-modules-0.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyct-0.5.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pycwt-0.3.0a22-py_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pydantic-2.8.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.20.1-py311hb3a8bbb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.18.0-pyhd8ed1ab_0.conda
@@ -4007,6 +4010,24 @@ packages:
   size: 17254
   timestamp: 1721907640382
 - kind: conda
+  name: multitaper
+  version: 1.2.0
+  build: pyhd8ed1ab_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/multitaper-1.2.0-pyhd8ed1ab_0.conda
+  sha256: 5cec32417c1906b1c4bce75046ceffcd0b9a939028e9d899001e8768dcfdb300
+  md5: 4dc771c88b24fa34552be8f061fb4306
+  depends:
+  - numba
+  - numpy
+  - python >=3.7
+  - scipy
+  license: MIT
+  license_family: MIT
+  size: 1757163
+  timestamp: 1670871948096
+- kind: conda
   name: munkres
   version: 1.1.4
   build: pyh9f0ad1d_0
@@ -4021,6 +4042,24 @@ packages:
   license_family: Apache
   size: 12452
   timestamp: 1600387789153
+- kind: conda
+  name: nc-time-axis
+  version: 1.4.1
+  build: pyhd8ed1ab_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/nc-time-axis-1.4.1-pyhd8ed1ab_0.tar.bz2
+  sha256: 345d51b39f603a6717e43a998adaac35764467a4cf2bfec8f1963b9a7ced2a36
+  md5: 281b58948bf60a2582de9e548bcc5369
+  depends:
+  - cftime >=1.5
+  - matplotlib-base
+  - numpy
+  - python >=3.7
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 18555
+  timestamp: 1650472902858
 - kind: conda
   name: ncurses
   version: '6.5'
@@ -4829,6 +4868,23 @@ packages:
   license_family: BSD
   size: 20096
   timestamp: 1701103924264
+- kind: conda
+  name: pycwt
+  version: 0.3.0a22
+  build: py_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/pycwt-0.3.0a22-py_0.tar.bz2
+  sha256: de2ded3fddfd8ae3b410683fa835365e3c4264c5f340de85c5db074b00da885c
+  md5: 7c5c2e3b0b35c42df45cfbb3ba4aecbf
+  depends:
+  - numpy
+  - python
+  - scipy
+  - tqdm
+  license: BSD-3-clause
+  license_family: BSD
+  size: 17921
 - kind: conda
   name: pydantic
   version: 2.8.2

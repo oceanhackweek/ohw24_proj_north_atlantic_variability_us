@@ -14,7 +14,7 @@ In this project, we explored the SST variability of the North Atlantic using a f
 | Alex Frenzel        | Observation Data Team         | [Jupyter Notebook]() | 
 | Jesse Mistr         | Observation Data Team         | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Jesse_Mistr/Jesse_M_Work.ipynb) |
 | Christian Sullivan  | Model Data Team               | [Jupyter Notebook]() |
-| Lev Naumov          | Model Data Team               | [Jupyter Notebook]() |
+| Lev Naumov          | Model Data Team               | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Lev_N/Lev_notebook.ipynb) |
 | Tanya Popova        | Observation Data Team         | [Jupyter Notebook]() |
 
 ## Communication

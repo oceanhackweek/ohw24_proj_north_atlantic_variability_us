@@ -32,15 +32,12 @@ Atlantic Multidacadal Variability (AMV; or Oscillation, AMO) is a mode of climat
 ## Datasets
 - [Extended Reconstructed SST - NOAA](https://www.ncei.noaa.gov/products/extended-reconstructed-sst)
 - Climate model data contributed to the Coupled Model Intercomparison Project phase 6 (CMIP6; [Eyring et al. 2016](https://gmd.copernicus.org/articles/9/1937/2016/))
-- Argo float data
-
-## Workflow/Roadmap
+- [Argo float data](https://erddap.ifremer.fr/erddap/index.html)
 
 ## Results/Findings
 
-[Links to slides and presentation recording]
-
-## Lessons Learned
+- [Slideshow Presentation](https://docs.google.com/presentation/d/1SMhXfzafKxXilCUB3UQvUugZIr-3IC_KZxLx407MCgM/edit?usp=sharing)
+- [Video Recording]()
 
 ## References
 ### Global Anomaly Plot

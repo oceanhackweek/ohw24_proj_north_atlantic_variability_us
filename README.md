@@ -1,56 +1,44 @@
-# ohwyy_proj_template_cc
+# ohw24_proj_north_atlantic_variability_us
 
-Template for starting Oceanhackweek project repos. Add country code (cc) in the end to indicate the location of your event (us/au).
-
-This repo is an example of how teams can structure their project repositories and format their project README.md file, but feel free to adapt as suits your needs.
-
-**Folder Structure**
-
-* `contributor_folders` Each contributor can make a folder here and 
-push their work here during the week. This will allow everyone to see each others work but prevent any merge conflicts.
-* `final_notebooks` When the team develops shared final notebooks, they 
-can be shared here. Make sure to communicate so that you limit merge conflicts.
-* `scripts` Shared scripts or functions can be added here.
-* `data` Shared dataset can be shared here. Note, do not put large datasets on GitHub. Speak to the organizers if you 
-need to share large datasets. Each team member can have a version of the dataset locally in the same folder to 
-preserve relative paths, but the dataset does not need to be added to git/GitHub (you can use `.gitignore`).
-
-You can start with a simple structure and as you progress you can refine it to contain more components. [Here](https://cookiecutter-data-science.drivendata.org/#directory-structure) is an example of a more elaborate structure for a data science project.
-
-## Project Name
+## Variability in North Atlantic SST: Models vs. Observations
 
 ## One-line Description
 
-## Planning
+In this project, we explored the SST variability of the North Atlantic using a few data sources, including CMIP6, ERSSTv5, and Argo.
 
 ## Collaborators
 
-| Name                | Location   | Role                |
-|---------------------|------------|---------------------|
-| Participant 1       | Virtual    | Project Facilitator |
-| Participant 2       | Bigelow    | Participant         |
-| Participant 3       | Bigelow    | Participant         |
+| Name                | Role                          | Workbook Link |
+|---------------------|-------------------------------|---------------|
+| Rob Ford            | Project Lead, Model Data Team | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Robert_Ford/amv-obs-mod.ipynb) |
+| Alex Frenzel        | Observation Data Team         | [Jupyter Notebook]() | 
+| Jesse Mistr         | Observation Data Team         | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Jesse_Mistr/Jesse_M_Work.ipynb) |
+| Christian Sullivan  | Model Data Team               | [Jupyter Notebook]() |
+| Lev Naumov          | Model Data Team               | [Jupyter Notebook]() |
+| Tanya Popova        | Observation Data Team         | [Jupyter Notebook]() |
 
-## Planning
+## Communication
 
-* Initial idea: "short description"
-* Ideation jam board: Add link
-* Ideation Presentation: Add link
-* Slack channel: ohw24_proj_name
-* Project google drive: Add link
-* Final presentation: Add link
+* Slack channel: [#ohw24_proj_north_atlantic_variability_us](https://oceanhackweek.slack.com/archives/C07JQGB2R0S)
 
 ## Background
 
-## Goals
+Atlantic Multidacadal Variability (AMV; or Oscillation, AMO) is a mode of climate variability characterized by multidecadal (i.e., 40--60 year) variations in the sea surface temperature (SST) anomaly over the entire North Atlantic basin. It has typically been assumed that the timscale of the variability is the result of slow variations in the Atlantic meridional overturning circulation (AMOC), but others have proposed that it is mainly the result of anthropogenic aerosol emissions, which are concentrated in the Northern Hemisphere (historically North America and Europe). AMV has been connected to variations in Atlantic hurricane strength/frequency and to rainfall in the Sahel region of Africa associated with the West African Monsoon system.
+
+## Project Goals
+- Explore the SST variability of the North Atlantic using a few data sources
+- Many individuals in our team had a goal to learn more about using Python and other data analysis/comparison methods
 
 ## Datasets
-
-## Workflow/Roadmap
+- [Extended Reconstructed SST - NOAA](https://www.ncei.noaa.gov/products/extended-reconstructed-sst)
+- Climate model data contributed to the Coupled Model Intercomparison Project phase 6 (CMIP6; [Eyring et al. 2016](https://gmd.copernicus.org/articles/9/1937/2016/))
+- [Argo float data](https://erddap.ifremer.fr/erddap/index.html)
 
 ## Results/Findings
 
-## Lessons Learned
+- [Slideshow Presentation](https://docs.google.com/presentation/d/1SMhXfzafKxXilCUB3UQvUugZIr-3IC_KZxLx407MCgM/edit?usp=sharing)
+- [Video Recording]()
 
 ## References
-
+### Global Anomaly Plot
+[Geoviews - Home](https://geoviews.org/index.html)

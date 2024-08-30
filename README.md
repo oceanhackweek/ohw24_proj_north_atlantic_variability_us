@@ -8,21 +8,20 @@ You can start with a simple structure and as you progress you can refine it to c
 
 ## Collaborators
 
-| Name                | Role                          |
-|---------------------|-------------------------------|
-| Rob Ford            | Project Lead, Model Data Team |
-| Alex Frenzel        | Observation Data Team         |
-| Jesse Mistr         | Observation Data Team         |
-| Christian Sullivan  | Model Data Team               |
-| Lev                 | Model Data Team               |
-| Tanya               | Observation Data Team         |
+| Name                | Role                          | Workbook Link |
+|---------------------|-------------------------------|---------------|
+| Rob Ford            | Project Lead, Model Data Team | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Robert_Ford/amv-obs-mod.ipynb) |
+| Alex Frenzel        | Observation Data Team         | [Jupyter Notebook]() | 
+| Jesse Mistr         | Observation Data Team         | [Jupyter Notebook](https://github.com/oceanhackweek/ohw24_proj_north_atlantic_variability_us/blob/main/contributor_folders/Jesse_Mistr/Jesse_M_Work.ipynb) |
+| Christian Sullivan  | Model Data Team               | [Jupyter Notebook]() |
+| Lev Naumov          | Model Data Team               | [Jupyter Notebook]() |
+| Tanya Popova        | Observation Data Team         | [Jupyter Notebook]() |
 
 ## Communication
 
 * Slack channel: [#ohw24_proj_north_atlantic_variability_us](https://oceanhackweek.slack.com/archives/C07JQGB2R0S)
 
 ## Background
-(Rob fill out?)
 
 ## Project Goals
 The goal for our final project is to ...  

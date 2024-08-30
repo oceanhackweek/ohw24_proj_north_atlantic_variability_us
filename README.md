@@ -1,10 +1,10 @@
 # ohw24_proj_north_atlantic_variability_us
 
-You can start with a simple structure and as you progress you can refine it to contain more components. [Here](https://cookiecutter-data-science.drivendata.org/#directory-structure) is an example of a more elaborate structure for a data science project.
-
-## Variability in North Atlantic SST : Models VS Observations
+## Variability in North Atlantic SST: Models vs. Observations
 
 ## One-line Description
+
+In this project, we explored the SST variability of the North Atlantic using a few data sources, including CMIP6, ERSSTv5, and Argo.
 
 ## Collaborators
 
@@ -23,16 +23,22 @@ You can start with a simple structure and as you progress you can refine it to c
 
 ## Background
 
+Atlantic Multidacadal Variability (AMV; or Oscillation, AMO) is a mode of climate variability characterized by multidecadal (i.e., 40--60 year) variations in the sea surface temperature (SST) anomaly over the entire North Atlantic basin. It has typically been assumed that the timscale of the variability is the result of slow variations in the Atlantic meridional overturning circulation (AMOC), but others have proposed that it is mainly the result of anthropogenic aerosol emissions, which are concentrated in the Northern Hemisphere (historically North America and Europe). AMV has been connected to variations in Atlantic hurricane strength/frequency and to rainfall in the Sahel region of Africa associated with the West African Monsoon system.
+
 ## Project Goals
-The goal for our final project is to ...  
-Many individuals in our team had a goal to learn more about using python and other data analysis/comparison methods.
+- Explore the SST variability of the North Atlantic using a few data sources
+- Many individuals in our team had a goal to learn more about using Python and other data analysis/comparison methods
 
 ## Datasets
-Extended Reconstructed SST - NOAA: https://www.ncei.noaa.gov/products/extended-reconstructed-sst
+- [Extended Reconstructed SST - NOAA](https://www.ncei.noaa.gov/products/extended-reconstructed-sst)
+- Climate model data contributed to the Coupled Model Intercomparison Project phase 6 (CMIP6; [Eyring et al. 2016](https://gmd.copernicus.org/articles/9/1937/2016/))
+- Argo float data
 
 ## Workflow/Roadmap
 
 ## Results/Findings
+
+[Links to slides and presentation recording]
 
 ## Lessons Learned
 
